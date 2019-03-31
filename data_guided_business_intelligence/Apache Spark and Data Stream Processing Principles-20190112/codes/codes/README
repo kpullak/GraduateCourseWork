@@ -1,0 +1,9 @@
+#----------------SparkSQL----------------
+
+1. All the datasets used came along with the Spark installation. So, no external data sets are required.
+
+2. Please use Python REPL to execute the code.
+
+3. You can use the examples from the slides or from the file: SparkSQL.py, after the spark cluster is setup
+(using "./bin/pyspark" from the Spark installation directory).
+

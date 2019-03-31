@@ -1,0 +1,1 @@
+This is to check if Apache Spark has been installed correctly on the system. The input the spark job will be the textfile you are currently reading. The python file starts a spark job to get the count of each word in this textfile. The result is located the output folder created by the spark job. Happy coding.
