@@ -1,0 +1,25 @@
+
+Open a terminal window found in the dock on the left of your screen. It has a black icon.
+
+For new terminal window do (CTRL + N).
+For new terminal tab do (CTRL + T).
+
+===========================================================================
+
+Locate the textile provided and check the number of lines. Go through the code file as well.
+
+Open terminal and run the following commands.
+
+1. sudo service mongod start
+
+2. $SPARK_HOME/bin/spark-submit --conf "spark.mongodb.input.uri=mongodb://127.0.0.1/local.coll?readPreference=primaryPreferred" --conf "spark.mongodb.output.uri=mongodb://127.0.0.1/local.coll" --packages org.mongodb.spark:mongo-spark-connector_2.11:2.0.0 ./install-check/spark/code.py
+
+3. mongo
+
+This will open the mongo shell. Type the following commands in the shell.
+
+4. use local
+
+5. db.coll.find().pretty()
+
+You will see the results in MongoDB.
